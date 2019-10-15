@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.NationsCupSummary.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.NationsCupSummary.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.NationsCupSummary.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\NationsCupSummary\obj\Debug\NationsCupSummary.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\DesktopModules\NationsCupSummary\obj\Debug\Jjg.GtsStats.NationsCupSummary.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\NationsCupSummary\obj\Debug\Jjg.GtsStats.NationsCupSummary.pdb

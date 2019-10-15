@@ -1,0 +1,2 @@
+D:\dev\jjg\GtsStats\Tester\bin\Debug\Tester.exe.config
+C:\dev\jjg\GranTurismoSport\Utilities\Tester\bin\Debug\Tester.exe.config

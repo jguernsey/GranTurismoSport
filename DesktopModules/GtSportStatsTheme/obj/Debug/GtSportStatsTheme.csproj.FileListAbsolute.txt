@@ -1,0 +1,6 @@
+C:\dev\bin\Jjg.GtsStats.GtSportStatsTheme.dll.config
+C:\dev\bin\Jjg.GtsStats.GtSportStatsTheme.dll
+C:\dev\bin\Jjg.GtsStats.GtSportStatsTheme.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\GtSportStatsTheme\obj\Debug\GtSportStatsTheme.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\DesktopModules\GtSportStatsTheme\obj\Debug\Jjg.GtsStats.GtSportStatsTheme.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\GtSportStatsTheme\obj\Debug\Jjg.GtsStats.GtSportStatsTheme.pdb

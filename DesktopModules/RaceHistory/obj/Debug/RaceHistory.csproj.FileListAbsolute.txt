@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RaceHistory.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RaceHistory.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RaceHistory.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\RaceHistory\obj\Debug\RaceHistory.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\DesktopModules\RaceHistory\obj\Debug\Jjg.GtsStats.RaceHistory.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\RaceHistory\obj\Debug\Jjg.GtsStats.RaceHistory.pdb

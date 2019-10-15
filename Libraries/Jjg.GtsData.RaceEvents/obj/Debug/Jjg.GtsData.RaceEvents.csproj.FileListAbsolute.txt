@@ -1,0 +1,14 @@
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceEvents\obj\Debug\Jjg.GtsData.RaceEvents.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceEvents\bin\Debug\Jjg.GtsData.RaceEvents.dll
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceEvents\bin\Debug\Jjg.GtsData.RaceEvents.pdb
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceEvents\bin\Debug\Jjg.GtsData.Common.dll
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceEvents\bin\Debug\Jjg.GtsData.Conversions.dll
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceEvents\bin\Debug\Jjg.GtsData.Requester.dll
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceEvents\bin\Debug\Jjg.GtsData.StatsData.dll
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceEvents\bin\Debug\Newtonsoft.Json.dll
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceEvents\bin\Debug\Jjg.GtsData.Common.pdb
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceEvents\bin\Debug\Jjg.GtsData.Conversions.pdb
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceEvents\bin\Debug\Jjg.GtsData.Requester.pdb
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceEvents\bin\Debug\Jjg.GtsData.StatsData.pdb
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceEvents\obj\Debug\Jjg.GtsData.RaceEvents.dll
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceEvents\obj\Debug\Jjg.GtsData.RaceEvents.pdb

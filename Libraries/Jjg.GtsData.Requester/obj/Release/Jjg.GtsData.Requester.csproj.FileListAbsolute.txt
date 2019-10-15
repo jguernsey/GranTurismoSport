@@ -1,0 +1,11 @@
+C:\Dev\GtsStats\Jjg.GtsData.Requester\bin\Release\Jjg.GtsData.Requester.dll
+C:\Dev\GtsStats\Jjg.GtsData.Requester\bin\Release\Jjg.GtsData.Requester.pdb
+C:\Dev\GtsStats\Jjg.GtsData.Requester\bin\Release\Jjg.GtsData.StatsData.dll
+C:\Dev\GtsStats\Jjg.GtsData.Requester\bin\Release\Jjg.GtsData.StatsData.pdb
+C:\Dev\GtsStats\Jjg.GtsData.Requester\obj\Release\Jjg.GtsData.Requester.csproj.CoreCompileInputs.cache
+C:\Dev\GtsStats\Jjg.GtsData.Requester\obj\Release\Jjg.GtsData.Requester.csproj.CopyComplete
+C:\Dev\GtsStats\Jjg.GtsData.Requester\obj\Release\Jjg.GtsData.Requester.dll
+C:\Dev\GtsStats\Jjg.GtsData.Requester\obj\Release\Jjg.GtsData.Requester.pdb
+C:\Dev\GtsStats\Jjg.GtsData.Requester\obj\Release\Jjg.GtsData.Requester.csprojAssemblyReference.cache
+C:\Dev\GtsStats\Jjg.GtsData.Requester\bin\Release\Jjg.GtsData.Common.dll
+C:\Dev\GtsStats\Jjg.GtsData.Requester\bin\Release\Jjg.GtsData.Common.pdb

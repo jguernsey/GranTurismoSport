@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\DesktopModules\RaceAverages\obj\Debug\RaceAverages.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RaceAverages.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RaceAverages.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RaceAverages.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\RaceAverages\obj\Debug\Jjg.GtsStats.RaceAverages.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\RaceAverages\obj\Debug\Jjg.GtsStats.RaceAverages.pdb

@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.ServerMaintenance.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.ServerMaintenance.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.ServerMaintenance.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\ServerMaintenance\obj\Debug\Jjg.GtsStats.ServerMaintenance.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\ServerMaintenance\obj\Debug\Jjg.GtsStats.ServerMaintenance.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\ServerMaintenance\obj\Debug\ServerMaintenance.csprojResolveAssemblyReference.cache

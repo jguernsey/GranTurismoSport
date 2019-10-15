@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\DesktopModules\QualifyingTimesC\obj\Debug\QualifyingTimesC.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.QualifyingTimesC.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.QualifyingTimesC.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.QualifyingTimesC.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\QualifyingTimesC\obj\Debug\Jjg.GtsStats.QualifyingTimesC.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\QualifyingTimesC\obj\Debug\Jjg.GtsStats.QualifyingTimesC.pdb

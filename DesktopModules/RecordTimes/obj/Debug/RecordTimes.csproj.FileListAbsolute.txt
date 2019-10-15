@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RecordTimes.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RecordTimes.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RecordTimes.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\RecordTimes\obj\Debug\Jjg.GtsStats.RecordTimes.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\RecordTimes\obj\Debug\Jjg.GtsStats.RecordTimes.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\RecordTimes\obj\Debug\RecordTimes.csprojResolveAssemblyReference.cache

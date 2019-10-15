@@ -1,0 +1,7 @@
+C:\dev\jjg\GranTurismoSport\Database\bin\Debug\Database.dacpac
+C:\dev\jjg\GranTurismoSport\Database\obj\Debug\Model.xml
+C:\dev\jjg\GranTurismoSport\Database\obj\Debug\refactor.xml
+C:\dev\jjg\GranTurismoSport\Database\obj\Debug\postdeploy.sql
+C:\dev\jjg\GranTurismoSport\Database\obj\Debug\predeploy.sql
+C:\dev\jjg\GranTurismoSport\Database\obj\Debug\Database.dll
+C:\dev\jjg\GranTurismoSport\Database\obj\Debug\Database.pdb

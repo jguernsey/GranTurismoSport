@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.HomePageInfo.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.HomePageInfo.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.HomePageInfo.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\HomePageInfo\obj\Debug\HomePageInfo.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\DesktopModules\HomePageInfo\obj\Debug\Jjg.GtsStats.HomePageInfo.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\HomePageInfo\obj\Debug\Jjg.GtsStats.HomePageInfo.pdb

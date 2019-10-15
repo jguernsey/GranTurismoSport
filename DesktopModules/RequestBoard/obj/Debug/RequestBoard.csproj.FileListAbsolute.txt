@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RequestBoard.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RequestBoard.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RequestBoard.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\RequestBoard\obj\Debug\Jjg.GtsStats.RequestBoard.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\RequestBoard\obj\Debug\Jjg.GtsStats.RequestBoard.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\RequestBoard\obj\Debug\RequestBoard.csprojResolveAssemblyReference.cache

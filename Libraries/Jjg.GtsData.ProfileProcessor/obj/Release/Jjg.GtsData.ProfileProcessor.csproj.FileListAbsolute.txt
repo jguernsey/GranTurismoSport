@@ -1,0 +1,2 @@
+C:\Dev\GtsStats\Jjg.GtsData.ProfileProcessor\obj\Release\Jjg.GtsData.ProfileProcessor.csproj.CoreCompileInputs.cache
+C:\Dev\GtsStats\Jjg.GtsData.ProfileProcessor\obj\Release\Jjg.GtsData.ProfileProcessor.csprojAssemblyReference.cache

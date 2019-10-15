@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\DesktopModules\DriverRatingBrackets\obj\Debug\DriverRatingBrackets.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.DriverRatingBrackets.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.DriverRatingBrackets.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.DriverRatingBrackets.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\DriverRatingBrackets\obj\Debug\Jjg.GtsStats.DriverRatingBrackets.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\DriverRatingBrackets\obj\Debug\Jjg.GtsStats.DriverRatingBrackets.pdb

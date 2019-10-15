@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\DesktopModules\ManufacturerSeriesSummary\obj\Debug\ManufacturerSeriesSummary.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.ManufacturerSeriesSummary.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.ManufacturerSeriesSummary.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.ManufacturerSeriesSummary.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\ManufacturerSeriesSummary\obj\Debug\Jjg.GtsStats.ManufacturerSeriesSummary.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\ManufacturerSeriesSummary\obj\Debug\Jjg.GtsStats.ManufacturerSeriesSummary.pdb

@@ -1,0 +1,9 @@
+D:\dev\jjg\GtsStats\ImageUploader\bin\Release\ImageUploader.exe.config
+D:\dev\jjg\GtsStats\ImageUploader\bin\Release\ImageUploader.exe
+D:\dev\jjg\GtsStats\ImageUploader\bin\Release\ImageUploader.pdb
+D:\dev\jjg\GtsStats\ImageUploader\obj\Release\ImageUploader.csprojResolveAssemblyReference.cache
+D:\dev\jjg\GtsStats\ImageUploader\obj\Release\ImageUploader.FrmMain.resources
+D:\dev\jjg\GtsStats\ImageUploader\obj\Release\ImageUploader.Properties.Resources.resources
+D:\dev\jjg\GtsStats\ImageUploader\obj\Release\ImageUploader.csproj.GenerateResource.Cache
+D:\dev\jjg\GtsStats\ImageUploader\obj\Release\ImageUploader.exe
+D:\dev\jjg\GtsStats\ImageUploader\obj\Release\ImageUploader.pdb

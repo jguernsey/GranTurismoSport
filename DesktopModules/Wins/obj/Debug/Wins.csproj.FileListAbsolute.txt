@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\DesktopModules\Wins\obj\Debug\Wins.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.Wins.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.Wins.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.Wins.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\Wins\obj\Debug\Jjg.GtsStats.Wins.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\Wins\obj\Debug\Jjg.GtsStats.Wins.pdb

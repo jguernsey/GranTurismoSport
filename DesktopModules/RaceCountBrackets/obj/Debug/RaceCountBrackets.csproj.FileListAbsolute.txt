@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\DesktopModules\RaceCountBrackets\obj\Debug\RaceCountBrackets.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RaceCountBrackets.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RaceCountBrackets.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RaceCountBrackets.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\RaceCountBrackets\obj\Debug\Jjg.GtsStats.RaceCountBrackets.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\RaceCountBrackets\obj\Debug\Jjg.GtsStats.RaceCountBrackets.pdb

@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\DesktopModules\DriverRating\obj\Debug\DriverRating.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.DriverRating.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.DriverRating.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.DriverRating.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\DriverRating\obj\Debug\Jjg.GtsStats.DriverRating.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\DriverRating\obj\Debug\Jjg.GtsStats.DriverRating.pdb

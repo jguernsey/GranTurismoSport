@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.TrackRatingByCategory.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.TrackRatingByCategory.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.TrackRatingByCategory.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\TrackRatingByCategory\obj\Debug\Jjg.GtsStats.TrackRatingByCategory.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\TrackRatingByCategory\obj\Debug\Jjg.GtsStats.TrackRatingByCategory.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\TrackRatingByCategory\obj\Debug\TrackRatingByCategory.csprojResolveAssemblyReference.cache

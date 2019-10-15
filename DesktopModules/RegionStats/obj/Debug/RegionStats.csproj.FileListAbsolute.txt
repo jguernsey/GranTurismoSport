@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RegionStats.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RegionStats.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RegionStats.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\RegionStats\obj\Debug\Jjg.GtsStats.RegionStats.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\RegionStats\obj\Debug\Jjg.GtsStats.RegionStats.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\RegionStats\obj\Debug\RegionStats.csprojResolveAssemblyReference.cache

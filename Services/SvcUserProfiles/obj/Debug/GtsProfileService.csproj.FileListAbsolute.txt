@@ -1,0 +1,17 @@
+D:\dev\jjg\GTSProfileService\GTSProfileService\bin\Debug\GTSProfileService.exe.config
+D:\dev\jjg\GTSProfileService\GTSProfileService\bin\Debug\GtsProfileService.exe
+D:\dev\jjg\GTSProfileService\GTSProfileService\bin\Debug\GtsProfileService.pdb
+D:\dev\jjg\GTSProfileService\GTSProfileService\bin\Debug\Jjg.GtsCollector.Common.dll
+D:\dev\jjg\GTSProfileService\GTSProfileService\bin\Debug\Jjg.GtsCollector.ProfileProcessor.dll
+D:\dev\jjg\GTSProfileService\GTSProfileService\bin\Debug\Jjg.GtsData.StatsData.dll
+D:\dev\jjg\GTSProfileService\GTSProfileService\bin\Debug\Newtonsoft.Json.dll
+D:\dev\jjg\GTSProfileService\GTSProfileService\bin\Debug\Jjg.GtsCollector.Common.pdb
+D:\dev\jjg\GTSProfileService\GTSProfileService\bin\Debug\Jjg.GtsCollector.ProfileProcessor.pdb
+D:\dev\jjg\GTSProfileService\GTSProfileService\bin\Debug\Jjg.GtsData.StatsData.pdb
+D:\dev\jjg\GTSProfileService\GTSProfileService\bin\Debug\Newtonsoft.Json.pdb
+D:\dev\jjg\GTSProfileService\GTSProfileService\bin\Debug\Newtonsoft.Json.xml
+D:\dev\jjg\GTSProfileService\GTSProfileService\obj\Debug\GtsProfileService.csprojResolveAssemblyReference.cache
+D:\dev\jjg\GTSProfileService\GTSProfileService\obj\Debug\GtsProfileService.ProjectInstaller.resources
+D:\dev\jjg\GTSProfileService\GTSProfileService\obj\Debug\GtsProfileService.csproj.GenerateResource.Cache
+D:\dev\jjg\GTSProfileService\GTSProfileService\obj\Debug\GtsProfileService.exe
+D:\dev\jjg\GTSProfileService\GTSProfileService\obj\Debug\GtsProfileService.pdb

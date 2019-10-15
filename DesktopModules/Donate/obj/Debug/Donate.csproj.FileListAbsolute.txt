@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\DesktopModules\Donate\obj\Debug\Donate.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.Donate.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.Donate.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.Donate.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\Donate\obj\Debug\Jjg.GtsStats.Donate.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\Donate\obj\Debug\Jjg.GtsStats.Donate.pdb

@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RaceCalendar.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RaceCalendar.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.RaceCalendar.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\RaceCalendar\obj\Debug\RaceCalendar.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\DesktopModules\RaceCalendar\obj\Debug\Jjg.GtsStats.RaceCalendar.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\RaceCalendar\obj\Debug\Jjg.GtsStats.RaceCalendar.pdb

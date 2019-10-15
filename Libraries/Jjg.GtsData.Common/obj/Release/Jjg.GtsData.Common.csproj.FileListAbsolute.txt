@@ -1,0 +1,8 @@
+C:\Dev\GtsStats\Jjg.GtsData.Common\bin\Release\Jjg.GtsData.Common.dll
+C:\Dev\GtsStats\Jjg.GtsData.Common\bin\Release\Jjg.GtsData.Common.pdb
+C:\Dev\GtsStats\Jjg.GtsData.Common\obj\Release\Jjg.GtsData.Common.csproj.CoreCompileInputs.cache
+C:\Dev\GtsStats\Jjg.GtsData.Common\obj\Release\Jjg.GtsData.Common.dll
+C:\Dev\GtsStats\Jjg.GtsData.Common\obj\Release\Jjg.GtsData.Common.pdb
+C:\inetpub\wwwroot\GTS\bin\Jjg.GtsData.Common.dll
+C:\inetpub\wwwroot\GTS\bin\Jjg.GtsData.Common.pdb
+C:\Dev\GtsStats\Jjg.GtsData.Common\obj\Release\Jjg.GtsData.Common.csprojAssemblyReference.cache

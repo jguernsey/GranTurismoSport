@@ -1,0 +1,12 @@
+D:\dev\jjg\bin\Jjg.GtsStats.CountryStats.dll.config
+D:\dev\jjg\bin\Jjg.GtsStats.CountryStats.dll
+D:\dev\jjg\bin\Jjg.GtsStats.CountryStats.pdb
+D:\dev\jjg\GtsStats\CountryStats\obj\Debug\CountryStats.csprojResolveAssemblyReference.cache
+D:\dev\jjg\GtsStats\CountryStats\obj\Debug\Jjg.GtsStats.CountryStats.dll
+D:\dev\jjg\GtsStats\CountryStats\obj\Debug\Jjg.GtsStats.CountryStats.pdb
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.CountryStats.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.CountryStats.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.CountryStats.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\CountryStats\obj\Debug\CountryStats.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\DesktopModules\CountryStats\obj\Debug\Jjg.GtsStats.CountryStats.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\CountryStats\obj\Debug\Jjg.GtsStats.CountryStats.pdb

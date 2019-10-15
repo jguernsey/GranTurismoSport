@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>Database</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{5143515e-414e-43cd-ad68-d06f544fb23b}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>Database</RootNamespace>
+    <AssemblyName>Database</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="Views" />
+    <Folder Include="Functions" />
+    <Folder Include="Procedures" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Procedures\dbo.GTS_AchievementHistory_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ActiveUserDetails_SelectAll.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ActiveUserLastUpdate_SelectAll.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ActualEnd_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ActualStart_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Car_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Car_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CarCategories_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CarCategory_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CarCategory_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CarCount_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CarCount_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CarCount_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CarCount_PageCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Cars_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Cars_SelectByCarId.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Cars_SelectByCategoryId.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Cars_SelectByManufacturerId.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Cars_SelectByManufacturerIdCategoryId.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CarsPurchased_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CarsPurchased_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CarsPurchased_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CarsPurchased_PageCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ChampionshipDetails_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Chart_DailyDistance.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Chart_DriverRating.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CleanRaces_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CleanRaces_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CleanRaces_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CleanRaces_PageCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ClearAddTracks.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CombinedBrackets_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CombinedRatings_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CombinedRatings_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CombinedRatingsClear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Countries_SelectUserFiaRegionId.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Countries_SelectUserRegionId.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CountryDetail_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CountryDetail_SelectList.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CountryImage_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CreditEarned_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CreditEarned_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CreditEarned_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_CreditEarned_PageCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_DailyRaces_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_DataPullRequests_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_DriverRating_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_DriverRating_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_DriverRating_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_DriverRating_PageCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_DriverRatingBrackets_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_DriversByClass_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_DriversByClass_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_DriversByClassClear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_EventCleanUp.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_EventDetail_GetDailyRaceInfo.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_EventDetail_GetRegionBoard.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_EventDetail_Initialize.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_EventDetail_SelectMissing.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_EventDetails_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_EventHeader_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_EventLog_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_EventResults_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_EventTimes_GetNextTime.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ExcludedUsernames_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Experience_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Experience_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Experience_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Experience_PageCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ExperiencePoints_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_FastestLaps_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_FastestLaps_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_FastestLaps_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_FastestLaps_PageCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_FIARaceHeader_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_FlagImage_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Get_QualifyingHistoryByUser.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Get_QualifyingHistoryByUser_CTE_Version.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetActiveUserNumbers_Paged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetAllActiveUserDetails_Paged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetAllProfileNumbersByCountry_Paged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetAllRegisteredUserDetails_Paged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetAllRegisteredUserDetails_Pagedv2.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetAverageStartFinishByTrack.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetCombinedBrackets.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetDailyRacesByRegion.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetDriverNames_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetDriverRatingProfiles_Paged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetFiaDailyRaces.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetFiaManufacturerRaces.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetFiaNationsRaces.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetFiaRaceRankings.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetManufacturerResultDetail.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetNationsCupResultDetail.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetNewProfileNumbers_Paged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetNewProfileNumbers_Pagedv2.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetPlayersByCountry.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetProfilesMissingStats_Paged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetQualifyingCountryRankings.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetQualifyingGlobalRankings.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetQualifyingRegionalRankings.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetRaceRankings_ByRegionTitle.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetRaceResultSummary.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetRaceResultSummaryByTrack.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetRealTimeDriverRating.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetRealTimeDriverRatingV2.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetRealTimeDriverRatingV3.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetRegionDrivers.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetRegisteredUserDetails_Paged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetSeasonDriverCountries.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetStatCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetTopQualifiersByNumberOfGlobalFastestTimesEver.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetTrackSportsmanshipRatingByCategory.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetTrackSportsmanshipRatingByTimeOfDay.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetTrackSportsmanshipRatingByWeekday.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetTrackSportsmanshipRatingSummary.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetUpcomingRaces.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetUserBestLaps.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_GetUsersDailyRaces.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_IncreaseMaximumNumber.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_InitializeSeasons.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_InsertTempTracks.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_LastUpdate_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_LastUpdate_UpdateDate.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Level_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Level_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Level_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Level_PageCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_LiveryCreated_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_LiveryLikes_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_LocalizedText_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Manufacturer_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Manufacturer_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ManufacturerPoints_InsertUpdate.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ManufacturerResults_InsertUpdate.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Manufacturers_GetFiaRaces.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Manufacturers_GetImage.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Manufacturers_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ManufacturerSeries_GetCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ManufacturerSeries_GetCountByAll.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ManufacturerSeries_GetCountByCountry.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ManufacturerSeries_GetCountByManufacturer.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ManufacturerSeries_GetSummary.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ManufacturerSeries_GetSummaryByAll.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ManufacturerSeries_GetSummaryByCountry.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ManufacturerSeries_GetSummaryByManufacturer.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_MaxProfileNumber_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_NationsCup_GetCountByCountry.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_NationsCup_GetSummary.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_NationsCup_GetSummary_Paged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_NationsCup_GetSummaryByCountry_Paged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_NationsCup_GetSummaryCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_NationsCupPoints_InsertUpdate.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_NationsCupResults_InsertUpdate.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_NewProfileNumbers_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_NewProfileNumbers_Paged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_OrphanNumbers_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_OtherUserDetails_SelectAll.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_PagedWinsPerEntry_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_PhotoLikes_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_PhotosTaken_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_PlayerLevels_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_PlayerLevels_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_PlayerLevels_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_PlayerProfile_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_PlayersByCountry_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_PlayersByCountry_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_PlayersByRegion_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_PlayersByRegion_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_PolePositions_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_PolePositions_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_PolePositions_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_PolePositions_PageCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ProfileDisclaimer_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ProfileId_SelectById.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ProfileNumber_SelectById.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ProfileNumbers_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_ProfileStats_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Qualifiers_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceAverages.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceBoardMapping_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceCalendar_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceCalendarUpdates_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceCalendarUpdates_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceCars_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceCount_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceCount_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceCount_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceCount_PageCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceCountBrackets_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceDetail_Initialize.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceDetail_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceDetail_SelectMissing.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceDetails_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceDetails_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceDetails_SelectNumbersOnly.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceDetails_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceDetails_UpdateEndDR.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceDetails_UpdateStartDR.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceHeader_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceRankings_InsertUpdate.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceRankings_SelectUserInfo.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceRankings_SelectWorldWideTopTen.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceRankings_SelectWorldWideTopTwentyFive.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceRankings_SelectWorldWideUser.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceRankings_SeletcTopTenUsers.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceResults_SelectHistory.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceResults_SelectHistoryV2.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RacesFastestLap_World.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RacesFinished_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RacesFinished_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RacesFinished_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RacesFinished_PageCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceType_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceType_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceTypes_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RaceUpdateTimes_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RankedPlayerInfo_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RankedQualifyingHistory_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RankedRaceTimes_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RealTimeDriverRating_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RegisteredUserDetails_Paged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RegisteredUserDetails_SelectAll.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RegisteredUserDetails_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RegisteredUserRankings_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RegisteredUserRankings_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RegisteredUsersLastUpdate_SelectAll.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RegisteredUserUpdateSingle.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RequestBoard_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RequestBoard_SelectAll.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RequestBoard_Vote.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RequestTypes_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_RunningProfileNumbers_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_SearchHistory_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_SearchUsername.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_SeasonNames_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_SeasonRounds_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Seasons_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_SeasonsClose.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_SiteMessages_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_SportsmanshipBrackets_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_SportsmanshipRatings_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_SportsmanshipRatings_Update.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Stats_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_StatType_Details.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_StatTypes_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_StatTypes_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_TimePlayed_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_TimePlayed_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_TimePlayed_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_TimePlayed_PageCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_TopUserNames_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_TopUserNames_Paged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_TotalDistance_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_TotalDistance_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_TotalDistance_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_TotalDistance_PageCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Tracks_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Tracks_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_UpdateCarNames.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_UpdateCars_temp.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_UpdateCombinedRatings.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_UpdateDriversByClass.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_UpdateManufacturerImage.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_UpdateManufacturers.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_UpdatePlayersByCountry.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_UpdatePSNName.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_UpdateSportsmanshipRatings.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_UpdateTempTracks.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_UserCars_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_UserCountry_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Wins_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Wins_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Wins_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_Wins_PageCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_WinsBrackets_Select.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_WinsPerEntry_ByCountryPaged.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_WinsPerEntry_Clear.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_WinsPerEntry_Insert.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTS_WinsPerEntry_PageCount.StoredProcedure.sql" />
+    <Build Include="Procedures\dbo.GTSEventLog_Insert.StoredProcedure.sql" />
+    <Build Include="Views\dbo.GTS_MissingStatsPercentageByCountry.View.sql" />
+    <Build Include="Views\dbo.GTS_NewProfileNumbers_Ranked.View.sql" />
+    <Build Include="Views\dbo.GTS_TrackTimeWeather.View.sql" />
+    <Build Include="Views\dbo.GTS_v_NewProfileNumbers.View.sql" />
+    <Build Include="Views\dbo.GTS_v_NewProfileNumbers_Ranked.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_ActiveUserInfo.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_BoardCountryCount.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_BoardRegionCount.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_BoardWorldCount.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_DailyEventTimes.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_GetPlayersByRegion.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_GroupedRaceCounts.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_GroupedRaceCounts_T.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_ManufacturerResultDetail.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_NationsCupResultDetail.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_NewProfileNumbers.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_OtherUserInfo.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_ProfilesMissingStats.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_RaceAverages.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_RacePlayerCount_ByRegion.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_RacePlayerCount_WorldWide.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_RaceRankDetails.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_RankedRaceTimes.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_RegisteredUserDetails.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_RegisteredUserInfo.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_TrackDetails.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_TrackLapTimes.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_UserCountryRegionInfo.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_UserRaceResults.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_UserRaceResults_v2.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_WorldRaceQualifiers.View.sql" />
+    <Build Include="Views\dbo.vw_GTS_WorldWideNationsCup.View.sql" />
+    <Build Include="Tables\dbo.GTS_AchievementHistory.Table.sql" />
+    <Build Include="Tables\dbo.GTS_CarCategories.Table.sql" />
+    <Build Include="Tables\dbo.GTS_CarCount.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Cars.Table.sql" />
+    <Build Include="Tables\dbo.GTS_CarsPurchased.Table.sql" />
+    <Build Include="Tables\dbo.GTS_ChampionshipColors.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Channels.Table.sql" />
+    <Build Include="Tables\dbo.GTS_ChannelTimes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_CleanRaces.Table.sql" />
+    <Build Include="Tables\dbo.GTS_CombinedRatings.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Countries.Table.sql" />
+    <Build Include="Tables\dbo.GTS_CreditEarned.Table.sql" />
+    <Build Include="Tables\dbo.GTS_DamageTypes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_DataPullRequests.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Descriptions.Table.sql" />
+    <Build Include="Tables\dbo.GTS_DriverRating.Table.sql" />
+    <Build Include="Tables\dbo.GTS_DriversByClass.Table.sql" />
+    <Build Include="Tables\dbo.GTS_EventChannels.Table.sql" />
+    <Build Include="Tables\dbo.GTS_EventDateTimes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_EventDetail.Table.sql" />
+    <Build Include="Tables\dbo.GTS_EventHeader.Table.sql" />
+    <Build Include="Tables\dbo.GTS_EventLog.Table.sql" />
+    <Build Include="Tables\dbo.GTS_EventResults.Table.sql" />
+    <Build Include="Tables\dbo.GTS_EventsBlocked.Table.sql" />
+    <Build Include="Tables\dbo.GTS_EventTargets.Table.sql" />
+    <Build Include="Tables\dbo.GTS_EventTimes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_EventTypes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_ExcludedUsernames.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Experience.Table.sql" />
+    <Build Include="Tables\dbo.GTS_ExperiencePoints.Table.sql" />
+    <Build Include="Tables\dbo.GTS_FastestLaps.Table.sql" />
+    <Build Include="Tables\dbo.GTS_FIARaceDetail.Table.sql" />
+    <Build Include="Tables\dbo.GTS_FIARaceHeader.Table.sql" />
+    <Build Include="Tables\dbo.GTS_FiaRegions.Table.sql" />
+    <Build Include="Tables\dbo.GTS_FIASeasons.Table.sql" />
+    <Build Include="Tables\dbo.GTS_GameModes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_ImagePaths.Table.sql" />
+    <Build Include="Tables\dbo.GTS_LastUpdate.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Level.Table.sql" />
+    <Build Include="Tables\dbo.GTS_LiveryCreated.Table.sql" />
+    <Build Include="Tables\dbo.GTS_LiveryLikes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_LocalizedText.Table.sql" />
+    <Build Include="Tables\dbo.GTS_LowMuTypes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_ManufacturerPoints.Table.sql" />
+    <Build Include="Tables\dbo.GTS_ManufacturerResults.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Manufacturers.Table.sql" />
+    <Build Include="Tables\dbo.GTS_NationsCupPoints.Table.sql" />
+    <Build Include="Tables\dbo.GTS_NationsCupResults.Table.sql" />
+    <Build Include="Tables\dbo.GTS_NewProfileNumbers.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Nums.Table.sql" />
+    <Build Include="Tables\dbo.GTS_NumsTest.Table.sql" />
+    <Build Include="Tables\dbo.GTS_NumsTest2.Table.sql" />
+    <Build Include="Tables\dbo.GTS_OneLineTitles.Table.sql" />
+    <Build Include="Tables\dbo.GTS_PhotoLikes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_PhotosTaken.Table.sql" />
+    <Build Include="Tables\dbo.GTS_PlayerLevels.Table.sql" />
+    <Build Include="Tables\dbo.GTS_PlayersByCountry.Table.sql" />
+    <Build Include="Tables\dbo.GTS_PlayersByRegion.Table.sql" />
+    <Build Include="Tables\dbo.GTS_PodiumRankings.Table.sql" />
+    <Build Include="Tables\dbo.GTS_PolePositions.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Profiles.Table.sql" />
+    <Build Include="Tables\dbo.GTS_ProfileStats.Table.sql" />
+    <Build Include="Tables\dbo.GTS_QualifiersCountry.Table.sql" />
+    <Build Include="Tables\dbo.GTS_QualifiersGlobal.Table.sql" />
+    <Build Include="Tables\dbo.GTS_QualifiersRegional.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RaceBoardMapping.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RaceCalendar.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RaceCalendarUpdates.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RaceCars.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RaceChannels.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RaceCount.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RaceDetail.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RaceHeader.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RaceRankings.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RacesFinished.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RaceTypes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RaceUpdateTimes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RankedQualifyingHistory.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RankedRaceTimes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RealTimeDriverRating.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Regions.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RegisteredUserDetails.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RegisteredUserRankings.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RequestBoard.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RequestStatus.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RequestTypes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RequestVotes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_RunningProfileNumbers.Table.sql" />
+    <Build Include="Tables\dbo.GTS_SearchHistory.Table.sql" />
+    <Build Include="Tables\dbo.GTS_SeasonDetail.Table.sql" />
+    <Build Include="Tables\dbo.GTS_SeasonHeader.Table.sql" />
+    <Build Include="Tables\dbo.GTS_SeasonRounds.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Seasons.Table.sql" />
+    <Build Include="Tables\dbo.GTS_SeasonTitleLink.Table.sql" />
+    <Build Include="Tables\dbo.GTS_SiteMessages.Table.sql" />
+    <Build Include="Tables\dbo.GTS_SkyTypes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_SlipStreamTypes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_SportsmanshipRating.Table.sql" />
+    <Build Include="Tables\dbo.GTS_SportsModes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_StartTypes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_StatDescriptions.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Stats.Table.sql" />
+    <Build Include="Tables\dbo.GTS_StatTypes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_TempEventTargets.Table.sql" />
+    <Build Include="Tables\dbo.GTS_TempTitles.Table.sql" />
+    <Build Include="Tables\dbo.GTS_TempTracks.Table.sql" />
+    <Build Include="Tables\dbo.GTS_TimeOfDay.Table.sql" />
+    <Build Include="Tables\dbo.GTS_TimePlayed.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Tires.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Titles.Table.sql" />
+    <Build Include="Tables\dbo.GTS_TopUserNames.Table.sql" />
+    <Build Include="Tables\dbo.GTS_TotalDistance.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Tracks.Table.sql" />
+    <Build Include="Tables\dbo.GTS_TrackTimes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_TrackWeather.Table.sql" />
+    <Build Include="Tables\dbo.GTS_UserCars.Table.sql" />
+    <Build Include="Tables\dbo.GTS_WeatherTypes.Table.sql" />
+    <Build Include="Tables\dbo.GTS_Wins.Table.sql" />
+    <Build Include="Tables\dbo.GTS_WinsPerEntry.Table.sql" />
+    <Build Include="Functions\dbo.ConvertTimeToHHMMSS.UserDefinedFunction.sql" />
+    <Build Include="Functions\dbo.fn_GTS_GetBoardIdsByTitle.UserDefinedFunction.sql" />
+    <Build Include="Functions\dbo.fn_GTS_GetBoardIdsByTitle_BAK_GD_2018-03-07.UserDefinedFunction.sql" />
+    <Build Include="Functions\dbo.fn_GTS_GetBoardIdsByTitle_GD.UserDefinedFunction.sql" />
+    <Build Include="Functions\dbo.fn_GTS_GetEventRaceDate.UserDefinedFunction.sql" />
+    <Build Include="Functions\dbo.fn_GTS_GetEventTimes.UserDefinedFunction.sql" />
+    <Build Include="Functions\dbo.fn_GTS_GetLowestLapTime_ByUser.UserDefinedFunction.sql" />
+    <Build Include="Functions\dbo.fn_GTS_GetPercentageValue.UserDefinedFunction.sql" />
+    <Build Include="Functions\dbo.fn_GTS_WorldWideRaceRanking.UserDefinedFunction.sql" />
+  </ItemGroup>
+</Project>

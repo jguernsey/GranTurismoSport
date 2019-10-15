@@ -1,0 +1,82 @@
+<dotnetnuke type="Package" version="5.0">
+<packages>
+<package name="Jjg.GtsStats.GtSportStatsTheme" type="Skin" version="01.00.64">
+<friendlyName>GtSportStatsTheme</friendlyName>
+<description>A responsive DNN skin using Bootstrap 3. Requires installation via the Host/Extensions page.</description>
+<owner>
+<name>Jason Guernsey</name>
+<organization>Jason Guernsey</organization>
+<url>http://www.jasonguernsey.net</url>
+<email>jasguer@gmail.com</email>
+</owner>
+<azureCompatible>true</azureCompatible>
+<license src="license.txt"></license>
+<releaseNotes src="releasenotes.txt"></releaseNotes>
+<dependencies>
+<dependency type="CoreVersion">07.01.00</dependency>
+</dependencies>
+<components>
+<component type="ResourceFile">
+<resourceFiles>
+<basePath>portals/_default/skins/GtSportStatsTheme</basePath>
+<resourceFile>
+<name>Resources.zip</name>
+</resourceFile>
+</resourceFiles>
+</component>
+<component type="Assembly">
+<assemblies>
+<assembly>
+<name>Jjg.GtsStats.GtSportStatsTheme.dll</name>
+<path>bin</path>
+</assembly>
+</assemblies>
+</component>
+<component type="Skin">
+<skinFiles>
+<skinName>GtSportStatsTheme</skinName>
+<basePath />
+<skinFile>
+<name>Home.ascx</name>
+</skinFile>
+<skinFile>
+<name>Edit.ascx</name>
+</skinFile>
+<skinFile>
+<name>PopupSkin.ascx</name>
+</skinFile>
+</skinFiles>
+</component>
+</components>
+</package>
+<package name="Jjg.GtsStats.Containers.GtSportStatsTheme" type="Container" version="01.00.64">
+<friendlyName>GtSportStatsTheme</friendlyName>
+<description>Containers for the GtSportStatsTheme Skin package.</description>
+<owner>
+<name>Jason Guernsey</name>
+<organization>Jason Guernsey</organization>
+<url>http://www.jasonguernsey.net</url>
+<email>jasguer@gmail.com</email>
+</owner>
+<license src="license.txt"></license>
+<releaseNotes src="releasenotes.txt"></releaseNotes>
+<dependencies>
+<dependency type="CoreVersion">07.01.00</dependency>
+</dependencies>
+<components>
+<component type="Container">
+<containerFiles>
+<containerName>GtSportStatsTheme</containerName>
+<basepath/>
+<containerFile>
+<name>Main.ascx</name>
+</containerFile>
+<containerFile>
+<name>Blank.ascx</name>
+</containerFile>
+</containerFiles>
+</component>
+</components>
+</package>
+</packages>
+</dotnetnuke>

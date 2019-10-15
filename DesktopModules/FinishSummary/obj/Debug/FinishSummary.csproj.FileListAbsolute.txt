@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\DesktopModules\FinishSummary\obj\Debug\FinishSummary.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.FinishSummary.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.FinishSummary.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.FinishSummary.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\FinishSummary\obj\Debug\Jjg.GtsStats.FinishSummary.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\FinishSummary\obj\Debug\Jjg.GtsStats.FinishSummary.pdb

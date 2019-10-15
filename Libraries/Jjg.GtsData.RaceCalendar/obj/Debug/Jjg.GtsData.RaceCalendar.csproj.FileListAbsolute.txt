@@ -1,0 +1,14 @@
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceCalendar\bin\Debug\Jjg.GtsData.RaceCalendar.dll
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceCalendar\bin\Debug\Jjg.GtsData.RaceCalendar.pdb
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceCalendar\bin\Debug\Jjg.GtsData.Common.dll
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceCalendar\bin\Debug\Jjg.GtsData.Conversions.dll
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceCalendar\bin\Debug\Jjg.GtsData.Requester.dll
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceCalendar\bin\Debug\Jjg.GtsData.StatsData.dll
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceCalendar\bin\Debug\Newtonsoft.Json.dll
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceCalendar\bin\Debug\Jjg.GtsData.Common.pdb
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceCalendar\bin\Debug\Jjg.GtsData.Conversions.pdb
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceCalendar\bin\Debug\Jjg.GtsData.Requester.pdb
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceCalendar\bin\Debug\Jjg.GtsData.StatsData.pdb
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceCalendar\obj\Debug\Jjg.GtsData.RaceCalendar.dll
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceCalendar\obj\Debug\Jjg.GtsData.RaceCalendar.pdb
+C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.RaceCalendar\obj\Debug\Jjg.GtsData.RaceCalendar.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.UpdateUserName.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.UpdateUserName.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.UpdateUserName.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\UpdateUserName\obj\Debug\Jjg.GtsStats.UpdateUserName.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\UpdateUserName\obj\Debug\Jjg.GtsStats.UpdateUserName.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\UpdateUserName\obj\Debug\UpdateUserName.csprojResolveAssemblyReference.cache

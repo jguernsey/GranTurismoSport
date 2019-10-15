@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\DesktopModules\Contact\obj\Debug\Contact.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.Contact.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.Contact.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.Contact.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\Contact\obj\Debug\Jjg.GtsStats.Contact.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\Contact\obj\Debug\Jjg.GtsStats.Contact.pdb

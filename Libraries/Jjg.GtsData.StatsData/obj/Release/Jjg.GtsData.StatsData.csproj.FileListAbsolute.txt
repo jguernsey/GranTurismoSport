@@ -1,0 +1,13 @@
+C:\dev\jjg\Jjg.GtsData.StatsData\Jjg.GtsData.StatsData\obj\Release\Jjg.GtsData.StatsData.csprojResolveAssemblyReference.cache
+C:\dev\jjg\Jjg.GtsData.StatsData\Jjg.GtsData.StatsData\obj\Release\Jjg.GtsData.StatsData.dll
+C:\dev\jjg\Jjg.GtsData.StatsData\Jjg.GtsData.StatsData\obj\Release\Jjg.GtsData.StatsData.pdb
+C:\inetpub\wwwroot\GTS\bin\Jjg.GtsData.StatsData.dll
+C:\inetpub\wwwroot\GTS\bin\Jjg.GtsData.StatsData.pdb
+D:\dev\jjg\Jjg.GtsData.StatsData\Jjg.GtsData.StatsData\obj\Release\Jjg.GtsData.StatsData.csprojResolveAssemblyReference.cache
+D:\dev\jjg\Jjg.GtsData.StatsData\Jjg.GtsData.StatsData\obj\Release\Jjg.GtsData.StatsData.dll
+D:\dev\jjg\Jjg.GtsData.StatsData\Jjg.GtsData.StatsData\obj\Release\Jjg.GtsData.StatsData.pdb
+C:\Dev\Jjg.GtsData.StatsData\Jjg.GtsData.StatsData\obj\Release\Jjg.GtsData.StatsData.dll
+C:\Dev\Jjg.GtsData.StatsData\Jjg.GtsData.StatsData\obj\Release\Jjg.GtsData.StatsData.pdb
+C:\Dev\Jjg.GtsData.StatsData\Jjg.GtsData.StatsData\obj\Release\Jjg.GtsData.StatsData.csprojAssemblyReference.cache
+C:\Dev\Jjg.GtsData.StatsData\Jjg.GtsData.StatsData\obj\Release\Jjg.GtsData.StatsData.csproj.CoreCompileInputs.cache
+C:\Dev\Jjg.GtsData.StatsData\Jjg.GtsData.StatsData\obj\Release\Jjg.GtsData.StatsData.csproj.CopyComplete

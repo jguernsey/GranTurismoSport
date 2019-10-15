@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.TrackRatingByTime.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.TrackRatingByTime.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.TrackRatingByTime.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\TrackRatingByTime\obj\Debug\Jjg.GtsStats.TrackRatingByTime.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\TrackRatingByTime\obj\Debug\Jjg.GtsStats.TrackRatingByTime.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\TrackRatingByTime\obj\Debug\TrackRatingByTime.csprojResolveAssemblyReference.cache

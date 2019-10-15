@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\DesktopModules\StatCharts\obj\Debug\StatCharts.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.StatCharts.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.StatCharts.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.StatCharts.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\StatCharts\obj\Debug\Jjg.GtsStats.StatCharts.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\StatCharts\obj\Debug\Jjg.GtsStats.StatCharts.pdb

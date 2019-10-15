@@ -1,0 +1,14 @@
+C:\Dev\GtsStats\Jjg.GtsData.Conversions\bin\Release\Jjg.GtsData.Conversions.dll
+C:\Dev\GtsStats\Jjg.GtsData.Conversions\bin\Release\Jjg.GtsData.Conversions.pdb
+C:\Dev\GtsStats\Jjg.GtsData.Conversions\bin\Release\Jjg.GtsData.Common.dll
+C:\Dev\GtsStats\Jjg.GtsData.Conversions\bin\Release\Jjg.GtsData.StatsData.dll
+C:\Dev\GtsStats\Jjg.GtsData.Conversions\bin\Release\Newtonsoft.Json.dll
+C:\Dev\GtsStats\Jjg.GtsData.Conversions\bin\Release\Jjg.GtsData.StatsData.pdb
+C:\Dev\GtsStats\Jjg.GtsData.Conversions\bin\Release\Jjg.GtsData.Common.pdb
+C:\Dev\GtsStats\Jjg.GtsData.Conversions\bin\Release\Newtonsoft.Json.pdb
+C:\Dev\GtsStats\Jjg.GtsData.Conversions\bin\Release\Newtonsoft.Json.xml
+C:\Dev\GtsStats\Jjg.GtsData.Conversions\obj\Release\Jjg.GtsData.Conversions.csprojAssemblyReference.cache
+C:\Dev\GtsStats\Jjg.GtsData.Conversions\obj\Release\Jjg.GtsData.Conversions.csproj.CoreCompileInputs.cache
+C:\Dev\GtsStats\Jjg.GtsData.Conversions\obj\Release\Jjg.GtsData.Conversions.csproj.CopyComplete
+C:\Dev\GtsStats\Jjg.GtsData.Conversions\obj\Release\Jjg.GtsData.Conversions.dll
+C:\Dev\GtsStats\Jjg.GtsData.Conversions\obj\Release\Jjg.GtsData.Conversions.pdb

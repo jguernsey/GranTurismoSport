@@ -1,0 +1,152 @@
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ import namespace="System.IO" #>
+<#@ output extension=".cs" #>
+<#
+	int major = 0;
+	int minor = 0;
+	int build = 0;
+	int revision = 0;
+
+	try
+	{
+		using(var f = File.OpenText(Host.ResolvePath("AssemblyFileVersion.cs")))
+		{
+			string maj = f.ReadLine().Replace("//","");
+			string min = f.ReadLine().Replace("//","");
+			string b = f.ReadLine().Replace("//","");
+			string r = f.ReadLine().Replace("//","");
+
+			major = int.Parse(maj);
+			minor = int.Parse(min);
+			build = int.Parse(b);
+			revision = int.Parse(r) + 1;
+		}
+	}
+	catch
+	{
+		major = 1;
+		minor = 0;
+		build = 0;
+		revision = 0;
+	}
+
+	try
+	{
+		string root = string.Empty;
+		if(File.Exists(Host.ResolvePath("AssemblyFileVersion.tt")))
+		{
+			root = Host.ResolvePath("AssemblyFileVersion.tt");
+			root = root.Replace("AssemblyFileVersion.tt", "");
+			string oldVersion = root + "Providers\\DataProviders\\SqlDataProvider\\00.00.01.SqlDataProvider";
+			string newVersion = root + string.Format("Providers\\DataProviders\\SqlDataProvider\\{0:00}.{1:00}.{2:00}.SqlDataProvider", major, minor, revision);
+
+			if(File.Exists(root + "GtSportStatsTheme.dnn"))
+			{
+				File.Delete(root + "GtSportStatsTheme.dnn");
+			}
+			
+			if(File.Exists(oldVersion) && !File.Exists(newVersion))
+			{
+				File.Copy(oldVersion, newVersion);
+			}
+		}
+		using(StreamWriter writer = new StreamWriter(root + "GtSportStatsTheme.dnn", true))
+		{
+			writer.WriteLine("<dotnetnuke type=\"Package\" version=\"5.0\">");
+			writer.WriteLine("<packages>");
+			writer.WriteLine(string.Format("<package name=\"Jjg.GtsStats.GtSportStatsTheme\" type=\"Skin\" version=\"{0:00}.{1:00}.{2:00}\">", major, minor, revision));
+			writer.WriteLine("<friendlyName>GtSportStatsTheme</friendlyName>");
+			writer.WriteLine("<description>A responsive DNN skin using Bootstrap 3. Requires installation via the Host/Extensions page.</description>");
+			writer.WriteLine("<owner>");
+			writer.WriteLine("<name>Jason Guernsey</name>");
+			writer.WriteLine("<organization>Jason Guernsey</organization>");
+			writer.WriteLine("<url>http://www.jasonguernsey.net</url>");
+			writer.WriteLine("<email>jasguer@gmail.com</email>");
+			writer.WriteLine("</owner>");
+			writer.WriteLine("<azureCompatible>true</azureCompatible>");
+			writer.WriteLine("<license src=\"license.txt\"></license>");
+			writer.WriteLine("<releaseNotes src=\"releasenotes.txt\"></releaseNotes>");
+			writer.WriteLine("<dependencies>");
+			writer.WriteLine("<dependency type=\"CoreVersion\">07.01.00</dependency>");
+			writer.WriteLine("</dependencies>");
+			writer.WriteLine("<components>");
+			writer.WriteLine("<component type=\"ResourceFile\">");
+			writer.WriteLine("<resourceFiles>");
+			writer.WriteLine("<basePath>portals/_default/skins/GtSportStatsTheme</basePath>");
+			writer.WriteLine("<resourceFile>");
+			writer.WriteLine("<name>Resources.zip</name>");
+			writer.WriteLine("</resourceFile>");
+			writer.WriteLine("</resourceFiles>");
+			writer.WriteLine("</component>");
+			writer.WriteLine("<component type=\"Assembly\">");
+			writer.WriteLine("<assemblies>");
+			writer.WriteLine("<assembly>");
+			writer.WriteLine("<name>Jjg.GtsStats.GtSportStatsTheme.dll</name>");
+			writer.WriteLine("<path>bin</path>");
+			writer.WriteLine("</assembly>");
+			writer.WriteLine("</assemblies>");
+			writer.WriteLine("</component>");
+			writer.WriteLine("<component type=\"Skin\">");
+			writer.WriteLine("<skinFiles>");
+			writer.WriteLine("<skinName>GtSportStatsTheme</skinName>");
+			writer.WriteLine("<basePath />");
+			writer.WriteLine("<skinFile>");
+			writer.WriteLine("<name>Home.ascx</name>");
+			writer.WriteLine("</skinFile>");
+			writer.WriteLine("<skinFile>");
+			writer.WriteLine("<name>Edit.ascx</name>");
+			writer.WriteLine("</skinFile>");
+			writer.WriteLine("<skinFile>");
+			writer.WriteLine("<name>PopupSkin.ascx</name>");
+			writer.WriteLine("</skinFile>");
+			writer.WriteLine("</skinFiles>");
+			writer.WriteLine("</component>");
+			writer.WriteLine("</components>");
+			writer.WriteLine("</package>");
+			writer.WriteLine(string.Format("<package name=\"Jjg.GtsStats.Containers.GtSportStatsTheme\" type=\"Container\" version=\"{0:00}.{1:00}.{2:00}\">", major, minor, revision));
+			writer.WriteLine("<friendlyName>GtSportStatsTheme</friendlyName>");
+			writer.WriteLine("<description>Containers for the GtSportStatsTheme Skin package.</description>");
+			writer.WriteLine("<owner>");
+			writer.WriteLine("<name>Jason Guernsey</name>");
+			writer.WriteLine("<organization>Jason Guernsey</organization>");
+			writer.WriteLine("<url>http://www.jasonguernsey.net</url>");
+			writer.WriteLine("<email>jasguer@gmail.com</email>");
+			writer.WriteLine("</owner>");
+			writer.WriteLine("<license src=\"license.txt\"></license>");
+			writer.WriteLine("<releaseNotes src=\"releasenotes.txt\"></releaseNotes>");
+			writer.WriteLine("<dependencies>");
+			writer.WriteLine("<dependency type=\"CoreVersion\">07.01.00</dependency>");
+			writer.WriteLine("</dependencies>");
+			writer.WriteLine("<components>");
+			writer.WriteLine("<component type=\"Container\">");
+			writer.WriteLine("<containerFiles>");
+			writer.WriteLine("<containerName>GtSportStatsTheme</containerName>");
+			writer.WriteLine("<basepath/>");
+			writer.WriteLine("<containerFile>");
+			writer.WriteLine("<name>Main.ascx</name>");
+			writer.WriteLine("</containerFile>");
+			writer.WriteLine("<containerFile>");
+			writer.WriteLine("<name>Blank.ascx</name>");
+			writer.WriteLine("</containerFile>");
+			writer.WriteLine("</containerFiles>");
+			writer.WriteLine("</component>");
+			writer.WriteLine("</components>");
+			writer.WriteLine("</package>");
+			writer.WriteLine("</packages>");
+			writer.WriteLine("</dotnetnuke>");
+		}
+	}
+	catch
+	{
+		
+	}
+#>
+//<#= major #>
+//<#= minor #>
+//<#= build #>
+//<#= revision #>
+//
+//
+using System.Reflection;
+[assembly: AssemblyVersion("<#= major #>.<#= minor #>.<#= build #>.<#= revision #>")]
+[assembly: AssemblyFileVersion("<#= major #>.<#= minor #>.<#= build #>.<#= revision #>")]

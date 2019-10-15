@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\DesktopModules\PlayerLevels\obj\Debug\PlayerLevels.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.PlayerLevels.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.PlayerLevels.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.PlayerLevels.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\PlayerLevels\obj\Debug\Jjg.GtsStats.PlayerLevels.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\PlayerLevels\obj\Debug\Jjg.GtsStats.PlayerLevels.pdb

@@ -1,0 +1,6 @@
+C:\dev\jjg\GranTurismoSport\DesktopModules\SearchUserName\obj\Debug\SearchUserName.csprojResolveAssemblyReference.cache
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.SearchUserName.dll.config
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.SearchUserName.dll
+C:\dev\jjg\GranTurismoSport\bin\Jjg.GtsStats.SearchUserName.pdb
+C:\dev\jjg\GranTurismoSport\DesktopModules\SearchUserName\obj\Debug\Jjg.GtsStats.SearchUserName.dll
+C:\dev\jjg\GranTurismoSport\DesktopModules\SearchUserName\obj\Debug\Jjg.GtsStats.SearchUserName.pdb

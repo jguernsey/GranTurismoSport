@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BAB1A8B9-E30F-44BA-9BB4-D3BDF7D106A2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Jjg.GtsData.StatsData</RootNamespace>
+    <AssemblyName>Jjg.GtsData.StatsData</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>C:\inetpub\wwwroot\GTS\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Users\jguernsey\Downloads\Json100r1\Bin\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyFileVersion.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AssemblyFileVersion.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CloseSeason.cs" />
+    <Compile Include="DbConn.cs" />
+    <Compile Include="EventWriter.cs" />
+    <Compile Include="GetActiveUserInfo.cs" />
+    <Compile Include="GetActiveUserLastUpdate.cs" />
+    <Compile Include="GetAverageStartFinishByTrack.cs" />
+    <Compile Include="GetCarCategories.cs" />
+    <Compile Include="GetCars.cs" />
+    <Compile Include="GetCarsByCategoryId.cs" />
+    <Compile Include="GetCarsByManufacturer.cs" />
+    <Compile Include="GetCarsByManufacturerIdCategoryId.cs" />
+    <Compile Include="GetChampionshipDetails.cs" />
+    <Compile Include="GetCombinedBrackets.cs" />
+    <Compile Include="GetCountryId.cs" />
+    <Compile Include="GetCountryList.cs" />
+    <Compile Include="GetCountryFlagImage.cs" />
+    <Compile Include="GetCountryLabelText.cs" />
+    <Compile Include="GetCountryStatistics.cs" />
+    <Compile Include="GetDailyDistanceChart.cs" />
+    <Compile Include="GetDailyRaceInfo.cs" />
+    <Compile Include="GetDailyRaces.cs" />
+    <Compile Include="GetDailyRacesByRegion.cs" />
+    <Compile Include="GetDriverNameSearch.cs" />
+    <Compile Include="GetDriverRatingBrackets.cs" />
+    <Compile Include="GetDriverRatingLists.cs" />
+    <Compile Include="GetDriverRatingPointsChart.cs" />
+    <Compile Include="GetDriverRatingUpdateProfiles.cs" />
+    <Compile Include="GetEventIds.cs" />
+    <Compile Include="GetEventsToUpdate.cs" />
+    <Compile Include="GetFeatureRequests.cs" />
+    <Compile Include="GetFiaEventsToUpdate.cs" />
+    <Compile Include="GetFiaManufacturerRaces.cs" />
+    <Compile Include="GetFiaManufacturers.cs" />
+    <Compile Include="GetFiaNationRaces.cs" />
+    <Compile Include="GetFiaRegionId.cs" />
+    <Compile Include="GetGeneralStatsByCountry.cs" />
+    <Compile Include="GetLastProfileNumber.cs" />
+    <Compile Include="GetLastProfileUpdate.cs" />
+    <Compile Include="GetManufacturerIdByCarId.cs" />
+    <Compile Include="GetManufacturerImage.cs" />
+    <Compile Include="GetManufacturerResultDetails.cs" />
+    <Compile Include="GetManufacturers.cs" />
+    <Compile Include="GetManufacturerSeriesSummary.cs" />
+    <Compile Include="GetManufacturerSeriesSummaryCount.cs" />
+    <Compile Include="GetNationsCupSummary.cs" />
+    <Compile Include="GetNationsCupSummaryByCountry.cs" />
+    <Compile Include="GetNationsCupSummaryCount.cs" />
+    <Compile Include="GetNationsCupSummaryCountByCountry.cs" />
+    <Compile Include="GetNationsCupSummaryPaged.cs" />
+    <Compile Include="GetNationsResultDetail.cs" />
+    <Compile Include="GetNextUpdateTime.cs" />
+    <Compile Include="GetOrphanGroups.cs" />
+    <Compile Include="GetOtherUserInfo.cs" />
+    <Compile Include="GetPageCount.cs" />
+    <Compile Include="GetPageCountByCountry.cs" />
+    <Compile Include="GetPlayerLevels.cs" />
+    <Compile Include="GetPlayersByRegion.cs" />
+    <Compile Include="GetProfileId.cs" />
+    <Compile Include="GetProfileNumber.cs" />
+    <Compile Include="GetProfileNumberGroup.cs" />
+    <Compile Include="GetProfileNumbers.cs" />
+    <Compile Include="GetProfileNumbersPaged.cs" />
+    <Compile Include="GetRaceAverages.cs" />
+    <Compile Include="GetRaceCountBrackets.cs" />
+    <Compile Include="GetRaceDetails.cs" />
+    <Compile Include="GetRaceHistory.cs" />
+    <Compile Include="GetRaceInfoByRaceType.cs" />
+    <Compile Include="GetRaceOpponents.cs" />
+    <Compile Include="GetRaceProfileNumbers.cs" />
+    <Compile Include="GetRaceResultsSummary.cs" />
+    <Compile Include="GetRaceResultsSummaryByTrack.cs" />
+    <Compile Include="GetRaceTimes.cs" />
+    <Compile Include="GetRaceTypes.cs" />
+    <Compile Include="GetRankedPlayerInfo.cs" />
+    <Compile Include="GetRealTimeDriverRating.cs" />
+    <Compile Include="GetRecentOpponents.cs" />
+    <Compile Include="GetRegionId.cs" />
+    <Compile Include="GetRegisteredUserDetails.cs" />
+    <Compile Include="GetRegisteredUserInfo.cs" />
+    <Compile Include="GetRegisteredUsersForUpdate.cs" />
+    <Compile Include="GetRegisteredUsersLastUpdate.cs" />
+    <Compile Include="GetRequestTypes.cs" />
+    <Compile Include="GetSeasonDriverCountries.cs" />
+    <Compile Include="GetSeasonList.cs" />
+    <Compile Include="GetSportsmanshipBrackets.cs" />
+    <Compile Include="GetStatDetails.cs" />
+    <Compile Include="GetStatTypes.cs" />
+    <Compile Include="GetTopProfileNumbers.cs" />
+    <Compile Include="GetTrackDetailByCategory.cs" />
+    <Compile Include="GetTrackDetailByTime.cs" />
+    <Compile Include="GetTrackDetailByWeekday.cs" />
+    <Compile Include="GetTrackDetailSummary.cs" />
+    <Compile Include="GetTrackRecords.cs" />
+    <Compile Include="GetTracks.cs" />
+    <Compile Include="GetUserBestLaps.cs" />
+    <Compile Include="GetUserCountryName.cs" />
+    <Compile Include="GetUserDailyRaceCalendar.cs" />
+    <Compile Include="GetUserRaces.cs" />
+    <Compile Include="GetUserRanking.cs" />
+    <Compile Include="GetWinsBrackets.cs" />
+    <Compile Include="GetWorldRankingsByTitle.cs" />
+    <Compile Include="IncreaseMaximumNumber.cs" />
+    <Compile Include="InsertAchievementHistory.cs" />
+    <Compile Include="InsertCarCategories.cs" />
+    <Compile Include="InsertEventDetail.cs" />
+    <Compile Include="InsertEventHeader.cs" />
+    <Compile Include="InsertEventResults.cs" />
+    <Compile Include="InsertExcludedUsername.cs" />
+    <Compile Include="InsertFeatureRequest.cs" />
+    <Compile Include="InsertFiaRaceCalendar.cs" />
+    <Compile Include="InsertLocalizedText.cs" />
+    <Compile Include="InsertManufacturerPoints.cs" />
+    <Compile Include="InsertManufacturerResults.cs" />
+    <Compile Include="InsertMessageText.cs" />
+    <Compile Include="InsertNationCupPoints.cs" />
+    <Compile Include="InsertNationCupResults.cs" />
+    <Compile Include="InsertRaceCalendar.cs" />
+    <Compile Include="InsertRaceHeader.cs" />
+    <Compile Include="InsertPlayerProfile.cs" />
+    <Compile Include="InsertProfileStats.cs" />
+    <Compile Include="InsertRaceDetails.cs" />
+    <Compile Include="InsertRankings.cs" />
+    <Compile Include="InsertRequestVote.cs" />
+    <Compile Include="InsertSeason.cs" />
+    <Compile Include="InsertSeasonRound.cs" />
+    <Compile Include="InsertStats.cs" />
+    <Compile Include="InsertStatsHistory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpdateDataPullRequests.cs" />
+    <Compile Include="UpdateDriverRating.cs" />
+    <Compile Include="UpdateDriverRatingEnd.cs" />
+    <Compile Include="UpdateDriverRatingStart.cs" />
+    <Compile Include="UpdateEndPosition.cs" />
+    <Compile Include="UpdateLapTimeRankings.cs" />
+    <Compile Include="UpdateLastUpdateDate.cs" />
+    <Compile Include="UpdatePlaystationName.cs" />
+    <Compile Include="UpdateRaceUpdateTimes.cs" />
+    <Compile Include="UsernameSearch.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AssemblyFileVersion.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AssemblyFileVersion.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Jjg.GtsData.Common\Jjg.GtsData.Common.csproj">
+      <Project>{f56eff69-c2f3-4867-9878-5eada844cab3}</Project>
+      <Name>Jjg.GtsData.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>set textTemplatingPath="C:\Program Files (x86)\Common Files\Microsoft Shared\TextTemplating\12.0\texttransform.exe"
+if %25textTemplatingPath%25=="C:\Program Files (x86)\Common Files\Microsoft Shared\TextTemplating\12.0\texttransform.exe" set textTemplatingPath="C:\Program Files (x86)\Common Files\Microsoft Shared\TextTemplating\12.0\texttransform.exe"
+%25textTemplatingPath%25 "$(ProjectDir)AssemblyFileVersion.tt"</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,177 @@
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ import namespace="System.IO" #>
+<#@ output extension=".cs" #>
+<#
+	int major = 0;
+	int minor = 0;
+	int build = 0;
+	int revision = 0;
+
+	try
+	{
+		using(var f = File.OpenText(Host.ResolvePath("AssemblyFileVersion.cs")))
+		{
+			string maj = f.ReadLine().Replace("//","");
+			string min = f.ReadLine().Replace("//","");
+			string b = f.ReadLine().Replace("//","");
+			string r = f.ReadLine().Replace("//","");
+
+			major = int.Parse(maj);
+			minor = int.Parse(min);
+			build = int.Parse(b);
+			revision = int.Parse(r) + 1;
+		}
+	}
+	catch
+	{
+		major = 1;
+		minor = 0;
+		build = 0;
+		revision = 0;
+	}
+
+	try
+	{
+		string root = string.Empty;
+		if(File.Exists(Host.ResolvePath("AssemblyFileVersion.tt")))
+		{
+			root = Host.ResolvePath("AssemblyFileVersion.tt");
+			root = root.Replace("AssemblyFileVersion.tt", "");
+			string oldVersion = root + "Providers\\DataProviders\\SqlDataProvider\\00.00.01.SqlDataProvider";
+			string newVersion = root + string.Format("Providers\\DataProviders\\SqlDataProvider\\{0:00}.{1:00}.{2:00}.SqlDataProvider", major, minor, revision);
+
+			if(File.Exists(root + "!MODULENAME!.dnn"))
+			{
+				File.Delete(root + "!MODULENAME!.dnn");
+			}
+			
+			if(File.Exists(oldVersion) && !File.Exists(newVersion))
+			{
+				File.Copy(oldVersion, newVersion);
+			}
+		}
+		using(StreamWriter writer = new StreamWriter(root + "!MODULENAME!.dnn", true))
+		{
+			writer.WriteLine("<dotnetnuke type=\"Package\" version=\"5.0\">");
+			writer.WriteLine("  <packages>");
+			writer.WriteLine(string.Format("    <package name=\"GT Sport !FRIENDLYNAME!\" type=\"Module\" version=\"{0:00}.{1:00}.{2:00}\">", major, minor, revision));
+			writer.WriteLine("      <friendlyName>GT Sport !FRIENDLYNAME!</friendlyName>");
+			writer.WriteLine("      <description>GT Sport !FRIENDLYNAME!</description>");
+			writer.WriteLine("      <iconFile>~/Images/DSIDNNLogo.jpg</iconFile>");
+			writer.WriteLine("      <owner>");
+			writer.WriteLine("        <name>Jason Guernsey</name>");
+			writer.WriteLine("        <organization>Jason Guernsey</organization>");
+			writer.WriteLine("        <url>http://www.jasonguernsey.net</url>");
+			writer.WriteLine("        <email>jasguer@gmail.com</email>");
+			writer.WriteLine("      </owner>");
+			writer.WriteLine("      <license src=\"License.txt\"></license>");
+			writer.WriteLine("      <releaseNotes src=\"ReleaseNotes.txt\"></releaseNotes>");
+			writer.WriteLine("      <dependencies>");
+			writer.WriteLine("        <dependency type=\"CoreVersion\">07.00.02</dependency>");
+			writer.WriteLine("      </dependencies>");
+			writer.WriteLine("      ");
+			writer.WriteLine("      <components>");
+			writer.WriteLine("        <component type=\"Script\">");
+			writer.WriteLine("          <scripts>");
+			writer.WriteLine("            <basePath>DesktopModules\\GtsStats\\!MODULENAME!</basePath>");
+			writer.WriteLine("            <script type=\"Install\">");
+			writer.WriteLine("              <path>Providers\\DataProviders\\SqlDataProvider</path>");
+			writer.WriteLine(string.Format("              <name>{0:00}.{1:00}.{2:00}.SqlDataProvider</name>", major, minor, revision));
+			writer.WriteLine(string.Format("              <version>{0:00}.{1:00}.{2:00}</version>", major, minor, revision));
+			writer.WriteLine("            </script>");
+			writer.WriteLine("            <script type=\"UnInstall\">");
+			writer.WriteLine("              <path>Providers\\DataProviders\\SqlDataProvider</path>");
+			writer.WriteLine("              <name>Uninstall.SqlDataProvider</name>");
+			writer.WriteLine(string.Format("              <version>{0:00}.{1:00}.{2:00}</version>", major, minor, revision));
+			writer.WriteLine("            </script>");
+			writer.WriteLine("          </scripts>");
+			writer.WriteLine("        </component>");
+
+			writer.WriteLine("        <component type=\"ResourceFile\">");
+			writer.WriteLine("          <resourceFiles>");
+			writer.WriteLine("            <basePath>DesktopModules/GtsStats/!MODULENAME!</basePath>");
+			writer.WriteLine("            <resourceFile>");
+			writer.WriteLine("              <name>Resources.zip</name>");
+			writer.WriteLine("            </resourceFile>");
+			writer.WriteLine("          </resourceFiles>");
+			writer.WriteLine("        </component>");
+
+			writer.WriteLine("        <component type=\"Module\">");
+			writer.WriteLine("          <desktopModule>");
+			writer.WriteLine("            <moduleName>!MODULENAME!</moduleName>");
+			writer.WriteLine("            <foldername>!MODULENAME!</foldername>");
+			writer.WriteLine("            <businessControllerClass>Jjg.GtsStats.!MODULENAME!.Components.FeatureController</businessControllerClass>");
+			writer.WriteLine("            <supportedFeatures />");
+			writer.WriteLine("            <moduleDefinitions>");
+			writer.WriteLine("              <moduleDefinition>");
+			writer.WriteLine("                <friendlyName>!MODULENAME!</friendlyName>");
+			writer.WriteLine("                <defaultCacheTime>0</defaultCacheTime>");
+			writer.WriteLine("                <moduleControls>");
+			writer.WriteLine("                  <moduleControl>");
+			writer.WriteLine("                    <controlKey />");
+			writer.WriteLine("                    <controlSrc>DesktopModules/GtsStats/!MODULENAME!/View.ascx</controlSrc>");
+			writer.WriteLine("                    <supportsPartialRendering>False</supportsPartialRendering>");
+			writer.WriteLine("                    <controlTitle />");
+			writer.WriteLine("                    <controlType>View</controlType>");
+			writer.WriteLine("                    <iconFile />");
+			writer.WriteLine("                    <helpUrl />");
+			writer.WriteLine("                    <viewOrder>0</viewOrder>");
+			writer.WriteLine("                  </moduleControl>");
+			writer.WriteLine("                  <moduleControl>");
+			writer.WriteLine("                    <controlKey>Edit</controlKey>");
+			writer.WriteLine("                    <controlSrc>DesktopModules/GtsStats/!MODULENAME!/Edit.ascx</controlSrc>");
+			writer.WriteLine("                    <supportsPartialRendering>False</supportsPartialRendering>");
+			writer.WriteLine("                    <controlTitle>Edit Content</controlTitle>");
+			writer.WriteLine("                    <controlType>Edit</controlType>");
+			writer.WriteLine("                    <iconFile />");
+			writer.WriteLine("                    <helpUrl />");
+			writer.WriteLine("                    <viewOrder>0</viewOrder>");
+			writer.WriteLine("                    <supportsPopUps>True</supportsPopUps>");
+			writer.WriteLine("                  </moduleControl>");
+			writer.WriteLine("                  <moduleControl>");
+			writer.WriteLine("                    <controlKey>Settings</controlKey>");
+			writer.WriteLine("                    <controlSrc>DesktopModules/GtsStats/!MODULENAME!/Settings.ascx</controlSrc>");
+			writer.WriteLine("                    <supportsPartialRendering>False</supportsPartialRendering>");
+			writer.WriteLine("                    <controlTitle>Country Stats Settings</controlTitle>");
+			writer.WriteLine("                    <controlType>Edit</controlType>");
+			writer.WriteLine("                    <iconFile />");
+			writer.WriteLine("                    <helpUrl />");
+			writer.WriteLine("                    <viewOrder>0</viewOrder>");
+			writer.WriteLine("                  </moduleControl>");
+			writer.WriteLine("                </moduleControls>");
+			writer.WriteLine("              </moduleDefinition>");
+			writer.WriteLine("            </moduleDefinitions>");
+			writer.WriteLine("          </desktopModule>");
+			writer.WriteLine("        </component>");
+			writer.WriteLine("        <component type=\"Assembly\">");
+			writer.WriteLine("          <assemblies>");
+			writer.WriteLine("            <assembly>");
+			writer.WriteLine("              <name>Jjg.GtsStats.!MODULENAME!.dll</name>");
+			writer.WriteLine("              <path>bin</path>");
+			writer.WriteLine("            </assembly>");
+			writer.WriteLine("            <assembly>");
+			writer.WriteLine("              <name>Jjg.GtsData.StatsData.dll</name>");
+			writer.WriteLine("              <path>bin</path>");
+			writer.WriteLine("            </assembly>");
+			writer.WriteLine("          </assemblies>");
+			writer.WriteLine("        </component>");
+			writer.WriteLine("      </components>");
+			writer.WriteLine("    </package>");
+			writer.WriteLine("  </packages>");
+			writer.WriteLine("</dotnetnuke>");
+		}
+	}
+	catch
+	{
+		
+	}
+#>
+//<#= major #>
+//<#= minor #>
+//<#= build #>
+//<#= revision #>
+//
+//
+using System.Reflection;
+[assembly: AssemblyVersion("<#= major #>.<#= minor #>.<#= build #>.<#= revision #>")]
+[assembly: AssemblyFileVersion("<#= major #>.<#= minor #>.<#= build #>.<#= revision #>")]
