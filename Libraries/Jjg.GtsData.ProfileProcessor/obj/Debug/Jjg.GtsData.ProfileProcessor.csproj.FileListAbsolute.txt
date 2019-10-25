@@ -12,3 +12,17 @@ C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\bin\Debug\Jjg
 C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\bin\Debug\Jjg.GtsData.StatsData.pdb
 C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\obj\Debug\Jjg.GtsData.ProfileProcessor.dll
 C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\obj\Debug\Jjg.GtsData.ProfileProcessor.pdb
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\bin\Debug\Jjg.GtsData.ProfileProcessor.dll
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\bin\Debug\Jjg.GtsData.ProfileProcessor.pdb
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\bin\Debug\Jjg.GtsData.Common.dll
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\bin\Debug\Jjg.GtsData.Conversions.dll
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\bin\Debug\Jjg.GtsData.Requester.dll
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\bin\Debug\Jjg.GtsData.StatsData.dll
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\bin\Debug\Newtonsoft.Json.dll
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\bin\Debug\Jjg.GtsData.Common.pdb
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\bin\Debug\Jjg.GtsData.Conversions.pdb
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\bin\Debug\Jjg.GtsData.Requester.pdb
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\bin\Debug\Jjg.GtsData.StatsData.pdb
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\obj\Debug\Jjg.GtsData.ProfileProcessor.csprojResolveAssemblyReference.cache
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\obj\Debug\Jjg.GtsData.ProfileProcessor.dll
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.ProfileProcessor\obj\Debug\Jjg.GtsData.ProfileProcessor.pdb

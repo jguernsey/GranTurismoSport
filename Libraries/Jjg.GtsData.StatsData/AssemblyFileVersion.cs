@@ -1,9 +1,9 @@
 ﻿//1
 //0
-//697
+//698
 
 //
 //
 using System.Reflection;
-[assembly: AssemblyVersion("1.0.697")]
-[assembly: AssemblyFileVersion("1.0.697")]
+[assembly: AssemblyVersion("1.0.698")]
+[assembly: AssemblyFileVersion("1.0.698")]

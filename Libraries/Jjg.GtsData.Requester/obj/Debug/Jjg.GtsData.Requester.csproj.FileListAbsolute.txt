@@ -7,3 +7,12 @@ C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.Requester\bin\Debug\Jjg.GtsDat
 C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.Requester\bin\Debug\Jjg.GtsData.Common.pdb
 C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.Requester\obj\Debug\Jjg.GtsData.Requester.dll
 C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.Requester\obj\Debug\Jjg.GtsData.Requester.pdb
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.Requester\bin\Debug\Jjg.GtsData.Requester.dll
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.Requester\bin\Debug\Jjg.GtsData.Requester.pdb
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.Requester\bin\Debug\Jjg.GtsData.StatsData.dll
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.Requester\bin\Debug\Jjg.GtsData.Common.dll
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.Requester\bin\Debug\Jjg.GtsData.StatsData.pdb
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.Requester\bin\Debug\Jjg.GtsData.Common.pdb
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.Requester\obj\Debug\Jjg.GtsData.Requester.csprojResolveAssemblyReference.cache
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.Requester\obj\Debug\Jjg.GtsData.Requester.dll
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.Requester\obj\Debug\Jjg.GtsData.Requester.pdb

@@ -16,3 +16,11 @@ C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.StatsData\bin\Debug\Jjg.GtsDat
 C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.StatsData\bin\Debug\Newtonsoft.Json.dll
 C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.StatsData\bin\Debug\Jjg.GtsData.Common.pdb
 C:\dev\jjg\GranTurismoSport\Libraries\Jjg.GtsData.StatsData\obj\Debug\Jjg.GtsData.StatsData.csprojResolveAssemblyReference.cache
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.StatsData\bin\Debug\Jjg.GtsData.StatsData.dll
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.StatsData\bin\Debug\Jjg.GtsData.StatsData.pdb
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.StatsData\bin\Debug\Jjg.GtsData.Common.dll
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.StatsData\bin\Debug\Newtonsoft.Json.dll
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.StatsData\bin\Debug\Jjg.GtsData.Common.pdb
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.StatsData\obj\Debug\Jjg.GtsData.StatsData.csprojResolveAssemblyReference.cache
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.StatsData\obj\Debug\Jjg.GtsData.StatsData.dll
+D:\dev\GranTurismoSport\Libraries\Jjg.GtsData.StatsData\obj\Debug\Jjg.GtsData.StatsData.pdb
